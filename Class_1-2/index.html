@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Mart</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/63a1b207b2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kadwa&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="home common">Home</div>
+            <div class="fruits common">Fruits</div>
+            <div class="vegetables common">Vegetables</div>
+
+            <div class="nav-search">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #ffbe30;"></i>
+                </div>
+                <input class="search-input" placeholder="Search Products">
+            </div>
+
+            <div class="profile">
+                <div class="profile-icon">
+                    <img width="32" height="32" src="https://img.icons8.com/ios/50/FFFFFF/user-male-circle--v1.png"
+                        alt="user-male-circle--v1" />
+                </div>
+                <div class="profile-text">Profile</div>
+            </div>
+            <div class="wishlist">
+                <div class="wishlist-icon">
+                    <i class="fa-solid fa-heart fa-xl" style="color: #ffffff;"></i>
+                </div>
+                <div class="wishlist-text">Wishlist</div>
+            </div>
+            <div class="cart">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
+                </div>
+                <div class="cart-text">My Cart</div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="first-div">
+            <div class="part1">
+                <div class="daily-discount-button">
+                    <button id="daily-discount">Daily Discount</button>
+                </div>
+                <div class="fruit-veggies">Fruits & Vegetables</div>
+                <div class="des">These super foods are packed with vital nutrients, including vitamins and minerals that
+                    can help keep you healthy. Plus they’re easy to enjoy-just add water and let the magic happen!
+                </div>
+                <div class="view-more-button">
+                    <button id="view-more">View more</button>
+                </div>
+            </div>
+            <div class="part2">
+                <div class="fruit-img"></div>
+            </div>
+        </div>
+
+        <div class="category1">
+            <div class="category-header">
+                <div class="category-title">Categories</div>
+                <div class="show-button">
+                    <button id="show-more">Show more</button>
+                </div>
+            </div>
+            <div class="categories">
+                <div class="categories-part1">
+                    <!-- 1st -->
+                    <div class="category-fruits" style="background-image: url('./Images/fruit.png');">
+                        <div class="category-title">Fruits</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 2nd -->
+                    <div class="category-fruits" style="background-image: url('./Images/vegetables.png');">
+                        <div class="category-title">Vegetables</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="category-fruits" style="background-image: url('./Images/bakers.png');">
+                        <div class="category-title">Bakers</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 4th -->
+                    <div class="category-fruits" style="background-image: url('./Images/juices.png');">
+                        <div class="category-title">Juices</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+                </div>
+                <div class="categories-part2">
+                    <!-- 1st -->
+                    <div class="category-fruits" style="background-image: url('./Images/cakes.png');">
+                        <div class="category-title">Cakes</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 2nd -->
+                    <div class="category-fruits" style="background-image: url('./Images/smoothies.png');">
+                        <div class="category-title">Smoothies</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 3rd -->
+                    <div class="category-fruits" style="background-image: url('./Images/eggs.png');">
+                        <div class="category-title">Eggs</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+
+                    <!-- 4th -->
+                    <div class="category-fruits" style="background-image: url('./Images/noodles.png');">
+                        <div class="category-title">Noodles</div>
+                        <div class="category-desc">So what are you looking for,
+                            fresh produce meals</div>
+                        <button id="category-view-more">View more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-box1">
+                <ul>
+                    <p id="footer-title">Fruit Mart</p>
+                    <p id="footer-desc">These super foods are packed with vital nutrients, including vitamins and
+                        minerals that can help keep you healthy.</p>
+                </ul>
+            </div>
+
+            <div class="footer-box1">
+                <ul>
+                    <h4>Navigation</h4>
+                    <a>Search</a>
+                    <a>My Cart</a>
+                    <a>Wishlist</a>
+                    <a>Categories</a>
+                </ul>
+            </div>
+
+            <div class="footer-box1">
+                <ul>
+                    <h4>About Us</h4>
+                    <a>About Us</a>
+                    <a>Contact Us</a>
+                    <a>FAQ's</a>
+                    <a>Delivery</a>
+                    <a>Privacy Policy</a>
+                </ul>
+            </div>
+
+            <div class="footer-box1">
+                <ul>
+                    <h4>Subscribe to our news letter and get 20% off</h4>
+                    <p style="color: white; font-family: 'Poppins', sans-serif; font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;">These super foods are packed with vital nutrients, including vitamins.</p>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
