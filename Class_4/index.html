@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="./index.js" async></script>
+</head>
+
+<body>
+    <div class="d-flex flex-column justify-content-center w-100 h-100">
+        <form class="signUp">
+            <h1 class="signUpTitle">Create An Account</h1>
+            <p class="signUpDesc">Create an account to enjoy all the services without any ads for free!</p>
+
+            <!-- Name -->
+            <div class="name input">
+                <input data-key="name" class="signUpForm" type="text" placeholder="Name">
+                <span data-error="fn-err" class="error-message">Name must only contain alphabets</span>
+                <span class="empty-field">*Please fill this field</span>
+            </div>
+
+            <!-- Email -->
+            <div class="email input">
+                <input data-key="email" class="signUpForm" type="email" placeholder="Email">
+                <span data-error="email-err" class="error-message">Invalid Email</span>
+                <span class="empty-field">*Please fill this field</span>
+            </div>
+
+            <!-- Password -->
+            <div class="password input">
+                <div class="pwdContainer">
+                    <input data-key="password" class="signUpForm" type="password" placeholder="Password" id="pwd">
+                    <button class="btn absolute right-0">
+                        <span class="material-symbols-outlined">
+                            visibility
+                        </span>
+                    </button>
+                </div>
+                <ul data-error="pwd-err" class="error-message ul">
+                    <li class="list">
+                        Password must conatin atleast 8 characters
+                    </li>
+                    <li class="list">
+                        Password must contain atleast 1 lower case letter
+                    </li>
+                    <li class="list">
+                        Password must contain atleast 1 upper case letter
+                    </li>
+                    <li class="list">
+                        Password must contain atleast one digit
+                    </li>
+                    <li class="list">
+                        Password must contain atleast one special character (!@#$%^&*)
+                    </li>
+                </ul>
+                <span class="empty-field">*Please fill this field</span>
+            </div>
+
+            <!-- Confirm Password -->
+            <div class="confirmPwd input">
+                <div class="pwdContainer">
+                    <input data-key="confirmPwd" class="signUpForm" type="password" placeholder="Confirm Password"
+                        id="pwd2">
+                    <button class="btn2 absolute right-0">
+                        <span class="material-symbols-outlined">
+                            visibility
+                        </span>
+                    </button>
+                </div>
+                <ul data-error="pwd-err" class="error-message ul">
+                    <li class="list">
+                        Password must conatin atleast 8 characters
+                    </li>
+                    <li class="list">
+                        Password must contain atleast 1 lower case letter
+                    </li>
+                    <li class="list">
+                        Password must contain atleast 1 upper case letter
+                    </li>
+                    <li class="list">
+                        Password must contain atleast one digit
+                    </li>
+                    <li class="list">
+                        Password must contain atleast one special character (!@#$%^&*)
+                    </li>
+                </ul>
+                <span data-error="pwd-err" class="error-message">Password doesn't match</span>
+                <span class="empty-field">*Please fill this field</span>
+            </div>
+            <button class="signUpButton">Sign Up</button>
+        </form>
+    </div>
+</body>
+
+</html>
